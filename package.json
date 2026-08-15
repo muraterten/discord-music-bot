@@ -1,0 +1,23 @@
+{
+  "name": "discord-music-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "check": "node --check index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/voice": "^0.19.2",
+    "@distube/ytdl-core": "^4.16.12",
+    "discord.js": "^14.26.2",
+    "dotenv": "^17.4.2",
+    "opusscript": "^0.0.8",
+    "play-dl": "^1.9.7",
+    "spotify-url-info": "^3.3.0",
+    "yt-search": "^2.13.1"
+  }
+}
